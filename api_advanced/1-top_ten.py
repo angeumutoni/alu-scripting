@@ -5,7 +5,7 @@ import requests
 
 def top_ten(subreddit):
 
-    headers = {'User-Agent': 'MyAPI/0.0.1'}
+    headers = {'User-Agent': "ALU-scripting API 0.1"}
     subreddit_url = "https://reddit.com/r/{}.json".format(subreddit)
     response = requests.get(subreddit_url, headers=headers)
 
